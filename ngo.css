@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .form-control{
+      width: 200px;
+  }
+  .bor {
+      width:100px;
+      border :1px solid black;
+  }
+  .slogan{
+      /*position: fixed;*/
+      color:white;
+      /*left: 400px;*/
+      /*top: 400px;*/
+      font-size: 50px;
+      font-family: Algerian;
+      text-align: center;
+      padding-top: 100px;
+  }
+  td{
+      padding-left: 150px;
+      padding-right: 150px;
+  }
+  
+  
+  .borde{
+      padding:0px; 
+      border: 5px solid pink;
+  }
+  .wBod{
+      padding:0px; 
+      border: 5px solid white;
+  }
+  
+  div{
+      padding-top: 20px;
+  
+  }
+  body{
+      background-color:#ffe2e2;
+      padding-left:100px;
+      padding-right:100px;
+  }
+  
+  
+  #mainnav{
+      background-color: #ff6565;
+      font-family: 'Nova Round', cursive;
+      font-size: 1.2rem;
+  
+  }
+  .slide{
+      padding-top: 100px;
+      padding-left:80px;
+      width: 60%;
+  }
+  .goal{
+      color:#e4f1ff;
+      background-color: rgba(34, 31, 31, 0.19);
+      position: fixed;
+      height: 600px;
+      width: 600px;
+      font-size: 50px;
+      left:1000px;
+      top: 60px;
+  }
+  
+  .rounded-bottom {
+      border-bottom-right-radius:20px!important;
+      border-bottom-left-radius: 20px!important;
+  }
+  
+  .s1{
+      position: absolute;
+      height: 600px;
+      width: 1200px;
+      background-image: url(1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation: f1 8s infinite;
+      border-radius: 25px;
+  }
+  .s2{
+      position: absolute;
+  
+      height: 600px;
+      width: 1200px;
+      background-image: url(2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation: f2 8s infinite;  
+      border-radius: 25px;
+  }
+  .s3{
+      position: absolute;
+      height: 600px;
+      width: 1200px;
+      background-image: url(3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation: f3 8s infinite;  
+      border-radius: 25px;
+  }
+
+  .white{
+      background-color: #ffffff;
+  }
+  
+ 
+  .head{
+      color: #d00000;
+      font-weight: 600;
+      font-family: 'Josefin Sans', sans-serif;
+  }
+  
+
+  #MainDivAbout{
+      margin-top: 700px;
+  }
+  
+  @keyframes f1
+  {	
+      0%
+      {
+          opacity: 1;
+      }
+      25%
+      {
+          opacity: 0;
+      }
+      75%
+      {
+          opacity: 0;
+      }
+      100%
+      {
+          opacity: 1;
+      }
+  }
+  @keyframes f2
+  {	
+      0%
+      {
+          opacity: 0;
+      }
+      25%
+      {
+          opacity: 1;
+      }
+      75%
+      {
+          opacity: 0;
+      }
+      100%
+      {
+          opacity: 0;
+      }
+  }
+  @keyframes f3
+  {	
+      0%
+      {
+          opacity: 0;
+      }
+      25%
+      {
+          opacity: 0;
+      }
+      75%
+      {
+          opacity: 1;
+      }
+      100%
+      {
+          opacity: 0;
+      }
+  }
+  
+  
